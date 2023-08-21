@@ -1,4 +1,5 @@
-#HSV调试
+# HSV调试
+```
 import cv2 as cv
 import numpy as np
 def nothing(x):
@@ -39,5 +40,6 @@ while(1):
     k = cv.waitKey(5) & 0xFF
     if k == 27:
         break
-        
+
 cv.destroyAllWindows()
+```
