@@ -1,4 +1,5 @@
 #导入相关的库
+```
 import cv2 as cv
 import numpy as np
 from matplotlib import pyplot as plt
@@ -51,3 +52,5 @@ while True:
 cap.release()
 
 cv.destroyAllWindows()
+
+```
